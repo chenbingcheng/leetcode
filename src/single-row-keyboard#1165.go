@@ -15,7 +15,7 @@ https://leetcode-cn.com/problems/single-row-keyboard/
 
 当前测试需要你使用机械手输出指定的单词 word，请你编写一个函数来计算机械手输出该单词所需的时间。
 
- 
+
 
 示例 1：
 
@@ -30,27 +30,26 @@ https://leetcode-cn.com/problems/single-row-keyboard/
 输出：73
 
 
- */
+*/
 
 func calculateTime(keyboard string, word string) int {
 
 	m := map[byte]int{}
 
-	for i:=0;i<len(keyboard);i++ {
+	for i := 0; i < len(keyboard); i++ {
 		m[keyboard[i]] = i
 	}
-	result, pre := 0,0
-	for i:=0;i<len(word);i++ {
-		result += abs( m[word[i]] - pre)
+	result, pre := 0, 0
+	for i := 0; i < len(word); i++ {
+		result += abs(m[word[i]] - pre)
 		pre = m[word[i]]
 	}
 	return result
 }
 
-func abs(x int) int  {
-	if(x < 0){
+func abs(x int) int {
+	if x < 0 {
 		return -1 * x
 	}
 	return x
 }
-
