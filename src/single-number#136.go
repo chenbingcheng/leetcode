@@ -18,19 +18,16 @@ import "fmt"
 输入: [4,1,2,1,2]
 输出: 4
 
- */
+*/
 func singleNumber(nums []int) int {
 	result := 0
-	for _,num := range nums {
+	for _, num := range nums {
 		result ^= num
 	}
 	return result
 }
 
-func main()  {
-	var nums = []int {2,2,3,4,4,5,5}
+func main() {
+	var nums = []int{2, 2, 3, 4, 4, 5, 5}
 	fmt.Println(singleNumber(nums))
 }
-
-
-
