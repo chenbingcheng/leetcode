@@ -17,21 +17,16 @@ B = [50, 12, 32, 46, 28]
 [1, 4, 3, 2, 0]
 P[0] = 1 ，因为 A 中的第 0 个元素出现于 B[1]，而且 P[1] = 4 因为 A 中第 1 个元素出现于 B[4]，以此类推。
 
- */
+*/
 func anagramMappings(A []int, B []int) []int {
 	m := map[int]int{}
 
-	for i,n := range B {
+	for i, n := range B {
 		m[n] = i
 	}
-	out := make([] int ,len(A))
-	for i,n := range A {
+	out := make([]int, len(A))
+	for i, n := range A {
 		out[i] = m[n]
 	}
 	return out
 }
-
-
-
-
-
