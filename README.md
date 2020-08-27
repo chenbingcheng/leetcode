@@ -1,17 +1,26 @@
 # leetcode
+
+
+
+## algorithms
+
+| 题目                                                         | 难度 | 标签            | Solution |
+| ------------------------------------------------------------ | ---- | --------------- | -------- |
+| [1. 两数之和](https://leetcode-cn.com/problems/two-sum/)     | easy | `数组` `哈希表` |          |
+| [1085. 最小元素各数位之和](https://leetcode-cn.com/problems/sum-of-digits-in-the-minimum-number/) | easy | `数组`          |          |
+
+
+
+
+
+
+
 依据：[有没有人一起从零开始刷力扣](https://leetcode-cn.com/circle/article/48kq9d/)，进行整理
 
-按照数据结构和算法来刷：
-
-[数组]([https://github.com/chenbingcheng/leetcode#%E4%B8%80-%E6%95%B0%E7%BB%84](https://github.com/chenbingcheng/leetcode#一-数组))
-
-[字符串](https://github.com/chenbingcheng/leetcode#二字符串)
-
-刷题顺序如下：
 
 #### 一. 数组
 
-- [ ] 数组的遍历	485、495、414、628
+- [ ] 数组的遍历 485、495、414、628
 - [ ] 统计数组中的元素	645、697、448、442、41、274
 - [ ] 数组的改变、移动	453、665、283
 - [ ] 二维数组及滚动数组	118、119、661、598、419
@@ -75,23 +84,11 @@
 
 七、双指针
 
-
-
 八、二分查找
-
-
 
 九、搜索
 
-
-
-
-
 十、贪心
-
-
-
-
 
 十一、动态规划
 
