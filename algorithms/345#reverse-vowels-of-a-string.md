@@ -1,0 +1,127 @@
+>编写一个函数，以字符串作为输入，反转该字符串中的元音字母。
+>
+>示例 1：
+>
+>输入："hello"
+>输出："holle"
+>示例 2：
+>
+>输入："leetcode"
+>输出："leotcede"
+>
+>来源：力扣（LeetCode）
+>链接：https://leetcode-cn.com/problems/reverse-vowels-of-a-string
+>著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+
+Tag : `双指针` `字符串`
+
+Difficulty : `easy`
+
+## Java solution
+
+哈希
+
+```java
+class Solution {
+    public String reverseVowels(String s) {
+        List<Integer> list = new ArrayList<>();
+        char[] chars = s.toCharArray();
+        for(int i = 0; i < chars.length; i++){
+           if(isVowel(chars[i])){
+                list.add(i);
+            }
+        }
+        
+        char[] resultChar = new char[chars.length];
+        int i = 0;
+        int j = list.size()-1;
+        for(char c : chars){
+            if(isVowel(c)){
+                resultChar[i] = chars[list.get(j)];
+                j--;
+            }else{
+                resultChar[i] = chars[i];
+            }
+            i++;
+        }
+
+        return String.valueOf(resultChar);
+    }
+
+
+    private boolean isVowel(char a){
+        return a == 'a' || a == 'o' || a =='e'||a =='u'|| a == 'i'
+        || a =='A' || a =='O' || a =='E'|| a =='U' ||a =='I';
+    }
+}
+```
+
+双指针：
+
+```java
+class Solution {
+    public String reverseVowels(String s) {
+        int left = 0, right = s.length() - 1;
+        char[] chars = s.toCharArray();
+        while(left < right){
+            while(left <= right && !isVowel(chars[left])){
+                left++;
+            }
+            while(left <= right && !isVowel(chars[right])){
+                right--;
+            }
+            if(left < right){
+                char c = chars[right];
+                chars[right] = chars[left];
+                chars[left] = c;
+            }
+            left++;
+            right--;
+        }
+        return String.valueOf(chars);
+    }
+
+    private boolean isVowel(char a){
+        return a == 'a' || a == 'o' || a =='e'||a =='u'|| a == 'i'
+        || a =='A' || a =='O' || a =='E'|| a =='U' ||a =='I';
+    }
+}
+```
+
+
+
+## Go Solution
+
+```go
+func reverseVowels(s string) string {
+	left := 0
+	right := len(s)-1
+	bs := []byte(s)
+	for true {
+		for left < right {
+			if isVowel(bs[left]){
+				break
+			}
+			left++
+		}
+		for left < right {
+			if isVowel(bs[right]){
+				break
+			}
+			right--
+		}
+		if right < left {
+			break
+		}
+		bs[left], bs[right] = bs[right],bs[left]
+		left++
+		right--
+	}
+	return string(bs)
+}
+
+func isVowel(s byte)bool {
+	return s == byte('A') || s == byte('a') || s == byte('o') || s == byte('O') || s == byte('i') || s == byte('I') || s == byte('e') || s == byte('E') || s == byte('u') || s == byte('U')
+}
+```
+
