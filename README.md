@@ -2,27 +2,23 @@
 
 
 
-## algorithms
+## algorithm
 
-| 题目                                                         | 难度 | 标签            | Solution |
-| ------------------------------------------------------------ | ---- | --------------- | -------- |
-| [1. 两数之和](https://leetcode-cn.com/problems/two-sum/)     | easy | `数组` `哈希表` |          |
-| [1085. 最小元素各数位之和](https://leetcode-cn.com/problems/sum-of-digits-in-the-minimum-number/) | easy | `数组`          |          |
-| [414. 第三大的数](https://leetcode-cn.com/problems/third-maximum-number/) | easy | `数组`          |          |
-|                                                              |      |                 |          |
+😎
 
+### 
 
-
-
-
-## 双指针
-
-头尾指针	345、680、167、15、16、18、11、42
-同向双指针、滑动窗口	27、26、80、83、82、611、187、643、674、209、3、438、567、424、76、30
-分段双指针	86、328、160、88、475
-快慢指针	141、142、143、234、457、287
-
-
+|      | Problem                                                      | Difficulty | Tag                                    |      |
+| ---- | ------------------------------------------------------------ | ---------- | -------------------------------------- | ---- |
+| ✅    | [345. 反转字符串中的元音字母](https://leetcode-cn.com/problems/reverse-vowels-of-a-string/) | `easy`     | `双指针` `字符串`                      |      |
+| ✅    | [125. 验证回文串](https://leetcode-cn.com/problems/valid-palindrome/) | `easy`     | `双指针` `字符串`                      |      |
+|      | [680. 验证回文字符串 Ⅱ](https://leetcode-cn.com/problems/valid-palindrome-ii/) | `easy`     | `字符串`                               |      |
+|      | [167. 两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/) | `easy`     | `Array` `Two Pointers` `Binary Search` |      |
+|      | [15. 三数之和](https://leetcode-cn.com/problems/3sum/)       | `medium`   | `Array` `Two Pointers`                 |      |
+|      | [16. 最接近的三数之和](https://leetcode-cn.com/problems/3sum-closest/) | `medium`   | `Array` `Two Pointers`                 |      |
+|      | [18. 四数之和](https://leetcode-cn.com/problems/4sum/)       | `medium`   | `Array` `Two Pointers` `Hash Table`    |      |
+|      | [11. 盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/) | `medium`   | `Array` `Two Pointers`                 |      |
+|      | [42. 接雨水](https://leetcode-cn.com/problems/trapping-rain-water/) | `hard`     | `Array` `Two Pointers` `Stack`         |      |
 
 
 
