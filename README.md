@@ -19,8 +19,8 @@
 |      | [18. 四数之和](https://leetcode-cn.com/problems/4sum/)       | `Medium`   | `Array` `Two Pointers` `Hash Table`    |
 |      | [11. 盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/) | `Medium`   | `Array` `Two Pointers`                 |
 |      | [42. 接雨水](https://leetcode-cn.com/problems/trapping-rain-water/) | `Hard`     | `Array` `Two Pointers` `Stack`         |
-|      | [27. 移除元素](https://leetcode-cn.com/problems/remove-element/) | `Easy`     | `Array` `Two Pointers`                 |
-|      |                                                              |            |                                        |
+| ✅    | [27. 移除元素](https://leetcode-cn.com/problems/remove-element/) | `Easy`     | `Array` `Two Pointers`                 |
+| ✅    | [26. 删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | `Easy`     | `Array` `Two Pointers`                 |
 |      |                                                              |            |                                        |
 |      |                                                              |            |                                        |
 |      |                                                              |            |                                        |
