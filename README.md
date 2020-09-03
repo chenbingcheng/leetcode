@@ -14,6 +14,7 @@
 | ---- | ------------------------------------------------------------ | ---------- | -------------------------------------- |
 |      | [486. 预测赢家](https://leetcode-cn.com/problems/predict-the-winner/) | `Medium`   | `Minimax` `Dynamic Programming`        |
 |      | [877. 石子游戏](https://leetcode-cn.com/problems/stone-game/) | `Medium`   | `Minimax` `Dynamic Programming` `Math` |
+|      | [51. N 皇后](https://leetcode-cn.com/problems/n-queens/)     | `Hard`     | `BackTracking`                         |
 
 
 
@@ -49,6 +50,33 @@
 
 
 
+### 回溯
+
+#### 
+
+|      | Problem                                                      | Difficulty | Tag  |
+| ---- | ------------------------------------------------------------ | ---------- | ---- |
+|      | [46. 全排列](https://leetcode-cn.com/problems/permutations/) |            |      |
+|      | [47. 全排列 II](https://leetcode-cn.com/problems/permutations-ii/) |            |      |
+|      | [39. 组合总和](https://leetcode-cn.com/problems/combination-sum/) |            |      |
+|      | [40. 组合总和 II](https://leetcode-cn.com/problems/combination-sum-ii/) |            |      |
+|      | [77. 组合](https://leetcode-cn.com/problems/combinations/)   |            |      |
+|      | [78. 子集](https://leetcode-cn.com/problems/subsets/)        |            |      |
+|      | [90. 子集 II](https://leetcode-cn.com/problems/subsets-ii/)  |            |      |
+|      | [60. 第 k 个排列](https://leetcode-cn.com/problems/permutation-sequence/) |            |      |
+|      | [93. 复原 IP 地址](https://leetcode-cn.com/problems/restore-ip-addresses/) |            |      |
+|      | [733. 图像渲染](https://leetcode-cn.com/problems/flood-fill/) |            |      |
+|      | [200. 岛屿数量](https://leetcode-cn.com/problems/number-of-islands/) |            |      |
+|      | [130. 被围绕的区域](https://leetcode-cn.com/problems/surrounded-regions/) |            |      |
+|      | [79. 单词搜索](https://leetcode-cn.com/problems/word-search/) |            |      |
+|      |                                                              |            |      |
+
+#### 
+
+
+
+
+
 ### 树相关
 
 
@@ -66,4 +94,8 @@
 参考：
 
 > [有没有人一起从零开始刷力扣](https://leetcode-cn.com/circle/article/48kq9d/)
+>
+> [回溯算法入门级详解 + 练习（持续更新）](https://leetcode-cn.com/problems/permutations/solution/hui-su-suan-fa-python-dai-ma-java-dai-ma-by-liweiw/)
+
+
 
